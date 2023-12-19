@@ -1,34 +1,11 @@
-.gameContainer {
+.tictactoe-space {
+  height: 3em;
+  width: 3em;
+  text-align: center;
+  border: 1px solid black;
+}
+.tictactoe-board {
+  width: 10em;
   display: flex;
-  flex-direction: column;
-}
-.header{
-  display: flex;
-}
-.resetButton {
-  font-weight: bold;
-  background: pink;
-  color:red;
-  border: 3px solid red;
-  border-radius: 5px;
-  margin:4px;
-}
-.turnLabel{
-  margin:4px;
-}
-.turnImg {
-  height:32px;
-  width:32px;
-}
-.board {
-  display:flex;
-  flex-direction: column;
-}
-.row {
-  display:flex;
-}
-.space {
-  height:32px;
-  width:32px;
-  border:solid 1px black;
+  flex-flow: row wrap;
 }
